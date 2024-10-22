@@ -1,0 +1,96 @@
+---
+title: "Zen demo site"
+baseURL: "https://zen-demo.xdeb.org/"
+theme: "github.com/frjo/hugo-theme-zen/v4"
+languageCode: "en-GB"
+defaultContentLanguage: "en"
+pluralizelisttitles: false
+removePathAccents: true
+paginate: 10
+paginatePath: "page"
+rssLimit: 20
+author:
+  name: "Fredrik Jonsson"
+  url: "https://xdeb.org"
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+    renderer:
+      unsafe: true
+
+outputFormats:
+  SearchIndex:
+    mediaType: "application/json"
+    baseName: "searchindex"
+    isPlainText: true
+    notAlternative: true
+
+outputs:
+  home: ["HTML","RSS", "JSON", "SearchIndex"]
+  section: ["HTML","RSS", "JSON"]
+
+params:
+  contact: "frjo@xdeb.org"
+  copyright: '<!--Creative Commons License-->This site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> licence.<!--/Creative Commons License-->'
+  description: "The zen theme for Hugo demo site."
+  dateformat: "2 January, 2006"
+  favicon: "apple-touch-icon.png"
+  feedlinks: true
+  icon: "apple-touch-icon.png"
+  image: "apple-touch-icon.png"
+  imageMaxWidth: 400
+  logoWidth: 64
+  logoHeight: 64
+  mainSections:
+    - blog
+  mobileMenu: true
+  mobileMenuOutline: true
+  poweredby: true
+  realfavicongenerator: true
+  sidebar: false
+  submitted: true
+
+languages:
+  en:
+    weight: 1
+    languageName: "English"
+    languageCode: "en-GB"
+    contentDir: content/en
+    menu:
+      main:
+        - Name: "Home"
+          weight: -10
+          pageRef: "/"
+        - Name: "Blog"
+          weight: 2
+          pageRef: "/blog/"
+        - Name: "Podcast"
+          weight: 4
+          pageRef: "/podcast/"
+        - Name: "Products"
+          weight: 6
+          pageRef: "/products/"
+        - Name: "Misc"
+          weight: 8
+          pageRef: "/misc/"
+        - Name: "Search"
+          weight: 10
+          pageRef: "/search/"
+        - Name: "Contact"
+          weight: 12
+          pageRef: "/contact/"
+
+  sv:
+    weight: 2
+    languageName: "Svenska"
+    languageCode: "sv-SE"
+    contentDir: content/sv
+    menu:
+      main:
+        - Name: "Hem"
+          weight: -10
+          pageRef: "/"
+
