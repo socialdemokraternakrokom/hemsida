@@ -1,17 +1,18 @@
 ---
-title: "Zen demo site"
-baseURL: "https://zen-demo.xdeb.org/"
+title: "Socialdemokraterna i Krokom"
+baseURL: "https://www.socialdemokraternakrokom.se/"
 theme: "github.com/frjo/hugo-theme-zen/v4"
-languageCode: "en-GB"
-defaultContentLanguage: "en"
+languageCode: "sv-SE"
+defaultContentLanguage: "sv"
 pluralizelisttitles: false
 removePathAccents: true
-paginate: 10
-paginatePath: "page"
 rssLimit: 20
+pagination:
+  pagerSize: 10
+  path: page
 author:
   name: "Fredrik Jonsson"
-  url: "https://xdeb.org"
+  url: "https://www.socialdemokraternakrokom.se/"
 
 markup:
   goldmark:
@@ -33,7 +34,7 @@ outputs:
   section: ["HTML","RSS", "JSON"]
 
 params:
-  contact: "frjo@xdeb.org"
+  contact: "frjo+sap@xdeb.org"
   copyright: '<!--Creative Commons License-->This site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> licence.<!--/Creative Commons License-->'
   description: "The zen theme for Hugo demo site."
   dateformat: "2 January, 2006"
@@ -44,6 +45,7 @@ params:
   imageMaxWidth: 400
   logoWidth: 64
   logoHeight: 64
+  logoPath: "images/logo.svg"
   mainSections:
     - blog
   mobileMenu: true
@@ -53,44 +55,8 @@ params:
   sidebar: false
   submitted: true
 
-languages:
-  en:
-    weight: 1
-    languageName: "English"
-    languageCode: "en-GB"
-    contentDir: content/en
-    menu:
-      main:
-        - Name: "Home"
-          weight: -10
-          pageRef: "/"
-        - Name: "Blog"
-          weight: 2
-          pageRef: "/blog/"
-        - Name: "Podcast"
-          weight: 4
-          pageRef: "/podcast/"
-        - Name: "Products"
-          weight: 6
-          pageRef: "/products/"
-        - Name: "Misc"
-          weight: 8
-          pageRef: "/misc/"
-        - Name: "Search"
-          weight: 10
-          pageRef: "/search/"
-        - Name: "Contact"
-          weight: 12
-          pageRef: "/contact/"
-
-  sv:
-    weight: 2
-    languageName: "Svenska"
-    languageCode: "sv-SE"
-    contentDir: content/sv
-    menu:
-      main:
-        - Name: "Hem"
-          weight: -10
-          pageRef: "/"
-
+menu:
+  main:
+    - Name: "Hem"
+      weight: -10
+      pageRef: "/"
