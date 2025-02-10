@@ -35,7 +35,8 @@ outputs:
 
 params:
   contact: "frjo+sap@xdeb.org"
-  copyright: '<!--Creative Commons License-->This site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> licence.<!--/Creative Commons License-->'
+  copyright: "© 2025 Socialdemokraterna i Krokom"
+  footer: "Björkvägen 3 D, 835 31 Krokom <info@socialdemokraternakrokom.se>"
   description: "The zen theme for Hugo demo site."
   dateformat: "2 January, 2006"
   favicon: "apple-touch-icon.png"
@@ -43,14 +44,15 @@ params:
   icon: "apple-touch-icon.png"
   image: "apple-touch-icon.png"
   imageMaxWidth: 400
-  logoWidth: 64
-  logoHeight: 64
+  logoWidth: 261
+  logoHeight: 50
   logoPath: "images/logo.svg"
   mainSections:
     - blog
+  menuinheader: true
   mobileMenu: true
   mobileMenuOutline: true
-  poweredby: true
+  poweredby: false
   realfavicongenerator: true
   sidebar: false
   submitted: true
