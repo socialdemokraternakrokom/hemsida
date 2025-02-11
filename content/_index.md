@@ -5,10 +5,16 @@ date: 2024-10-22T13:09:30+02:00
 ---
 
 
-#### Samhällsbyggarna
-
 ## Vårt Krokom kan bättre
 
+
+{{< wrapper "box box--fit" >}}
+### Kontaktuppgifter
+
+Björkvägen 3 D, 835 31 Krokom
+
+<info@socialdemokraternakrokom.se>
+{{< /wrapper >}}
 
 
 {{< button text="Bli medlem" src="https://www.socialdemokraterna.se/bli-medlem" class="big" >}}

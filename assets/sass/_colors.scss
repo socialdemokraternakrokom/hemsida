@@ -38,10 +38,10 @@ $colors: (
   text-bg:                $white,
   text-meta:              $grey-dark,
 
-  link:                   $brand,
-  link-visited:           $brand,
-  link-hover:             $brand-alt,
-  link-active:            $red,
+  link:                   $brand-alt,
+  link-visited:           $brand-alt,
+  link-hover:             $brand,
+  link-active:            $brand,
 
   link-inverted:          $white,
   link-visited-inverted:  $white,
@@ -59,7 +59,7 @@ $colors: (
 
   body-bg:                $white,
   header-bg:              $brand,
-  footer-bg:              $white,
+  footer-bg:              $brand,
   backdrop:               $grey-extra-light,
 
   mobile-menu:            $brand,

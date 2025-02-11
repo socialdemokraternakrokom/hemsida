@@ -55,10 +55,16 @@ params:
   poweredby: false
   realfavicongenerator: true
   sidebar: false
-  submitted: true
+  submitted: false
 
 menu:
   main:
     - Name: "Hem"
       weight: -10
       pageRef: "/"
+    - Name: "Kyrkan"
+      weight: -8
+      pageRef: "kyrkan/"
+    - Name: "Medlemmar"
+      weight: 0
+      pageRef: "medlemmar/"

@@ -20,22 +20,44 @@
 
 .main-menu {
   a {
-    background-color: var(--color-brand-alt);
+    background-color: var(--color-brand);
     color: var(--color-text-bg);
-    outline: 1px solid var(--color-brand-dark);
+    font-weight: var(--fw-medium);
+    outline: 2px solid var(--color-brand-alt);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 10px;
 
     &:hover,
     &:focus {
-      background-color: var(--color-brand-dark);
+      background-color: var(--color-brand-alt);
     }
 
     &:active,
     &[aria-current] {
-      background-color: var(--color-brand-dark);
+      background-color: var(--color-brand-alt);
     }
   }
 }
 
 .big {
   font-size: var(--fs-l);
+  font-weight: var(--fw-medium);
+}
+
+.box {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 10px;
+  border-width: 2px;
+  border-color: var(--color-brand-alt);
+}
+
+.footer {
+  color: var(--color-text-bg);
+  font-weight: var(--fw-medium);
+
+  a {
+    color: var(--color-text-bg);
+  }
+}
+
+div:has(> iframe) {
+  margin-block-end: 2rem;
 }
