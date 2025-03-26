@@ -17,11 +17,13 @@ Björkvägen 3 D, 835 31 Krokom
 {{< /wrapper >}}
 
 
-{{< button text="Bli medlem" src="https://www.socialdemokraterna.se/bli-medlem" class="big" >}}
+{{< button text="Bli medlem" src="https://www.socialdemokraterna.se/bli-medlem" class="big mb--s" >}}
 
 
 
-{{< button text="Skriv till oss" src="mailto:info@socialdemokraternakrokom.se" class="big" >}}
+{{< button text="Skriv till oss" src="mailto:info@socialdemokraternakrokom.se" class="big mb--s" >}}
 
 
+{{< wrapper-start flex-inline >}}
 [{{< svg src="images/facebook.svg" width="32" >}}](https://www.facebook.com/socialdemokraternakrokom "Besök oss på Facebook") Vi finns på Facebook.
+{{< wrapper-end >}}

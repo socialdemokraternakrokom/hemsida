@@ -1,3 +1,28 @@
+// Site custom styles and colours. This file loads last.
+
+:root {
+  // Site colours.
+  --color-sap-red:                #ed1b34;
+  --color-sap-red-mid:            #ad143d;
+  --color-sap-red-dark:           #660027;
+  --color-sap-yellow:             #ffc166;
+  --color-sap-green:              #009352;
+
+  // Brand colours.
+  --color-brand:                  var(--color-sap-red);
+  --color-brand-alt:              var(--color-sap-red-mid);
+  --color-brand-light:            var(--color-sap-green);
+  --color-brand-dark:             var(--color-sap-red-dark);
+
+  --color-link:                   var(--color-brand-alt);
+  --color-link-visited:           var(--color-brand-alt);
+  --color-link-hover:             var(--color-brand);
+  --color-link-active:            var(--color-brand);
+
+  --color-header-bg:              var(--color-brand);
+  --color-footer-bg:              var(--color-brand);
+}
+
 .header {
   flex-flow: wrap;
   &__site-name {
