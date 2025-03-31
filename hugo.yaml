@@ -44,16 +44,12 @@ params:
   icon: "apple-touch-icon.png"
   image: "apple-touch-icon.png"
   imageMaxWidth: 400
-  logoWidth: 261
-  logoHeight: 50
+  logoWidth: 340
   logoPath: "images/logo.svg"
-  mainSections:
-    - blog
   menuinheader: true
   mobileMenu: true
   mobileMenuOutline: true
   poweredby: false
-  realfavicongenerator: true
   sidebar: false
   submitted: false
 

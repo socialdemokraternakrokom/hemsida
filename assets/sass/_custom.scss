@@ -23,8 +23,54 @@
   --color-footer-bg:              var(--color-brand);
 }
 
+.page {
+  @media (min-width: 777px) {
+    box-shadow: 2px 0 10px #aaa, -2px 0 10px #aaa;
+  }
+}
+
+.front-bg-box {
+  margin-block-start: var(--gutters);
+
+  h2 {
+    font-size: var(--fs-xxl);
+    margin: 0;
+  }
+
+  p {
+    font-family: var(--ff-headings);
+    font-weight: var(--fw-headings);
+    line-height: var(--heading-line-height);
+    margin: 0;
+  }
+
+  @media (min-width: 666px) {
+    @include overlay;
+    --color-overlay: var(--color-black-40);
+    --color-overlay2: var(--color-black-10);
+
+    display: grid;
+    align-content: center;
+    margin-block-start: 0;
+    color: var(--color-text-bg);
+    background-image: var(--background-image-front-url);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: var(--background-image-front-height);
+
+    h2 {
+      color: var(--color-text-bg);
+    }
+
+    p {
+    }
+  }
+}
+
 .header {
   flex-flow: wrap;
+
   &__site-name {
     font-size: var(--fs-xl);
     order: 1;
@@ -37,29 +83,13 @@
       color: var(--color-text-bg);
     }
   }
-
-  &__region {
-  }
 }
-
 
 .main-menu {
   a {
-    background-color: var(--color-brand);
-    color: var(--color-text-bg);
     font-weight: var(--fw-medium);
     outline: 2px solid var(--color-brand-alt);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 10px;
-
-    &:hover,
-    &:focus {
-      background-color: var(--color-brand-alt);
-    }
-
-    &:active,
-    &[aria-current] {
-      background-color: var(--color-brand-alt);
-    }
+    box-shadow: 0px 4px 10px var(--color-black-20);
   }
 }
 
@@ -69,7 +99,7 @@
 }
 
 .box {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 10px;
+  box-shadow: 0px 4px 10px var(--color-black-20);
   border-width: 2px;
   border-color: var(--color-brand-alt);
 }
@@ -81,6 +111,11 @@
   a {
     color: var(--color-text-bg);
   }
+}
+
+.flex-group > *:last-child {
+  display: grid;
+  place-items: center;
 }
 
 div:has(> iframe) {
