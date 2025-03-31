@@ -6,20 +6,20 @@
   {{ $image = .Resize "1554x" -}}
 {{ end -}}
 <main class="main layout__main">
-
 <div class="front-bg-box stretch" style="--background-image-front-url: url({{ $image.RelPermalink }}); --background-image-front-height: {{ $image.Height }}px;">
-
 <div class="flex-inline">
 <a class="button big mb--s" href="https://www.socialdemokraterna.se/bli-medlem">Bli medlem</a>
 <a class="button big mb--s" href="mailto:info@socialdemokraternakrokom.se">Skriv till oss</a>
 </div>
-
-
 <p>Samhällsbyggarna</p>
 <h2>Vårt Krokom kan bättre</h2>
-
 </div>
 
+{{ range first site.Params.frontposts (where site.RegularPages "Type" "in" site.Params.mainSections) -}}
+{{ .Render "full" }}
+{{ end -}}
+
+<p class="grid-center"><a class="button" href="/blog/">Se äldre inlägg</a></p>
 
 {{ .Content }}
 </main>
