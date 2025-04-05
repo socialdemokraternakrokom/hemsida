@@ -15,12 +15,29 @@
 <h2>Vårt Krokom kan bättre</h2>
 </div>
 
+{{ .Content }}
+
 {{ range first site.Params.frontposts (where site.RegularPages "Type" "in" site.Params.mainSections) -}}
 {{ .Render "full" }}
 {{ end -}}
 
+{{ if gt (len (where site.RegularPages "Type" "in" site.Params.mainSections)) site.Params.frontposts -}}
 <p class="grid-center"><a class="button" href="/blog/">Se äldre inlägg</a></p>
+{{ end -}}
 
-{{ .Content }}
+<div class="flex-group">
+<div class="box">
+<img class="image right" src="images/s-logga-staende.svg" width="128" height="128">
+<h3 class="mt--0">Kontaktuppgifter</h3>
+<p>Björkvägen 3 D<br>
+835 31 Krokom</p>
+<a class="wrap-any" href="mailto:info@socialdemokraternakrokom.se">info@socialdemokraternakrokom.se</a>
+</div>
+<div class="box grid-center">
+<p class="flex-inline"><a href="https://www.facebook.com/socialdemokraternakrokom"><img src="images/facebook.svg" width="32" height="32" alt="Facebook"></a>
+<a href="https://www.facebook.com/socialdemokraternakrokom"><span>Vi finns på Facebook.</span></a></p>
+</div>
+</div>
+
 </main>
 {{ end -}}
