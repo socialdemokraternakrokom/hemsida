@@ -59,14 +59,17 @@ params:
 menu:
   main:
     - Name: "Hem"
-      weight: -10
+      weight: 10
       pageRef: "/"
     - Name: "Blog"
-      weight: -9
+      weight: 20
       pageRef: "blog"
+    - Name: "Kommunen"
+      weight: 50
+      pageRef: "kommunen/"
     - Name: "Kyrkan"
-      weight: -8
+      weight: 70
       pageRef: "kyrkan/"
     - Name: "Medlemmar"
-      weight: 0
+      weight: 90
       pageRef: "medlemmar/"
