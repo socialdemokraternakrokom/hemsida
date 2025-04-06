@@ -6,12 +6,8 @@ languageCode: "sv-SE"
 defaultContentLanguage: "sv"
 pluralizelisttitles: false
 removePathAccents: true
-rssLimit: 20
-pagination:
-  pagerSize: 10
-  path: page
 author:
-  name: "Fredrik Jonsson"
+  name: "Krokoms Ak"
   url: "https://www.socialdemokraternakrokom.se/"
 
 markup:
@@ -22,22 +18,11 @@ markup:
     renderer:
       unsafe: true
 
-outputFormats:
-  SearchIndex:
-    mediaType: "application/json"
-    baseName: "searchindex"
-    isPlainText: true
-    notAlternative: true
-
-outputs:
-  home: ["HTML","RSS", "JSON", "SearchIndex"]
-  section: ["HTML","RSS", "JSON"]
-
 params:
-  contact: "frjo+sap@xdeb.org"
+  contact: "info@socialdemokraternakrokom.se"
   copyright: "© 2025 Socialdemokraterna i Krokom"
   footer: "Björkvägen 3 D, 835 31 Krokom <info@socialdemokraternakrokom.se>"
-  description: "The zen theme for Hugo demo site."
+  description: "Socialdemokraterna i Krokoms kommun. Vårt Krokom kan bättre."
   dateformat: "2 January, 2006"
   favicon: "apple-touch-icon.png"
   feedlinks: true
