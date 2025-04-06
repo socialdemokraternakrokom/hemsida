@@ -9,6 +9,8 @@ removePathAccents: true
 author:
   name: "Krokoms Ak"
   url: "https://www.socialdemokraternakrokom.se/"
+cascade:
+  description: "Socialdemokraterna i Krokoms kommun. Vårt Krokom kan bättre."
 
 markup:
   goldmark:
