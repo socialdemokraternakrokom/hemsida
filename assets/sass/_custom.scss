@@ -48,6 +48,7 @@
     @include overlay;
     --color-overlay: var(--color-black-40);
     --color-overlay2: var(--color-black-10);
+     --background-image-front-height: 600px;
 
     display: grid;
     align-content: center;
@@ -69,6 +70,8 @@
 }
 
 .header {
+  --header-gap: var(--spacing-xs);
+  gap: var(--header-gap);
   flex-flow: wrap;
 
   @media (max-width: 555px) {
