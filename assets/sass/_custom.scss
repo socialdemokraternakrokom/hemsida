@@ -45,7 +45,6 @@
   }
 
   @media (min-width: 666px) {
-    @include overlay;
     --color-overlay: var(--color-black-40);
     --color-overlay2: var(--color-black-10);
      --background-image-front-height: 600px;
