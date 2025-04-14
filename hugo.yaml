@@ -35,7 +35,7 @@ params:
   logoWidth: 340
   logoPath: "images/logo.svg"
   mainSections:
-    - blog
+    - aktuellt
   menuinheader: true
   mobileMenu: true
   mobileMenuOutline: true
@@ -48,9 +48,9 @@ menu:
     - Name: "Hem"
       weight: 10
       pageRef: "/"
-    - Name: "Blog"
+    - Name: "Aktuellt"
       weight: 20
-      pageRef: "blog"
+      pageRef: "aktuellt"
 #     - Name: "Kommunen"
 #       weight: 50
 #       pageRef: "kommunen/"

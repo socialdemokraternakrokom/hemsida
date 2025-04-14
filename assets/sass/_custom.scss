@@ -99,6 +99,17 @@
   }
 }
 
+.title {
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .big {
   font-size: var(--fs-l);
   font-weight: var(--fw-medium);

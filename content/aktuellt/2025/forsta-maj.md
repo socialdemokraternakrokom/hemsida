@@ -1,10 +1,10 @@
 ---
 title: Fira första maj 2025 i Krokom
-date: 2025-03-31T15:19:22+02:00
+date: 2025-04-14T20:25:07+02:00
 
 ---
 
-**Plats**: Krokoms Wärdshus  
+**Plats**: Krokoms Värdshus  
 **Tid**: 08:30
 
 Vi bjuder på frukost från kl. 8.30 på Krokoms Värdshus, och kl. 9.00 drar talen igång.
@@ -22,5 +22,6 @@ Efter firandet i Krokom fortsätter vi tillsammans i Östersund för att förlä
 
 Kom och fira arbetarrörelsens dag med oss!
 
+<!--more-->
 
 {{< img class="center" src="images/annons-1-maj-2025.jpeg" >}}

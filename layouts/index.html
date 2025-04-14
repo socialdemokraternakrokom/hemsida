@@ -18,7 +18,7 @@
 {{ .Content }}
 
 {{ range first site.Params.frontposts (where site.RegularPages "Type" "in" site.Params.mainSections) -}}
-{{ .Render "full" }}
+{{ .Render "summary" }}
 {{ end -}}
 
 {{ if gt (len (where site.RegularPages "Type" "in" site.Params.mainSections)) site.Params.frontposts -}}
