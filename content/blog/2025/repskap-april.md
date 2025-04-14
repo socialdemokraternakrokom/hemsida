@@ -4,7 +4,10 @@ date: 2025-04-05T20:28:48+02:00
 
 ---
 
-**Plats**: ?  
+**Plats**: Ivern på Kommunhuset Krokom  
 **Tid**: 18:30
 
-Krokoms Arbetarekommun kallar till Repskap den 28 april 2025.
+Krokoms Arbetarekommun kallar till Repskap den 28 april 2025. Vi diskuterar ny skola i Krokom/Nyheden, vårkampanj och annat aktuellt.
+
+Välkommen!  
+Johan Nilsson Alsterbåge, Ordförande
