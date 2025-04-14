@@ -1,0 +1,6 @@
+---
+title: Aktuellt
+aliases:
+  - /nyheter/
+
+---
