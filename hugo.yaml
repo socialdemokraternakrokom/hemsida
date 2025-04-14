@@ -51,9 +51,9 @@ menu:
     - Name: "Blog"
       weight: 20
       pageRef: "blog"
-    - Name: "Kommunen"
-      weight: 50
-      pageRef: "kommunen/"
+#     - Name: "Kommunen"
+#       weight: 50
+#       pageRef: "kommunen/"
     - Name: "Kyrkan"
       weight: 70
       pageRef: "kyrkan/"
