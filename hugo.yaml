@@ -36,7 +36,7 @@ params:
   icon: "apple-touch-icon.png"
   image: "apple-touch-icon.png"
   imageMaxWidth: 400
-  logoWidth: 340
+  logoWidth: 100
   logoPath: "images/logo.svg"
   mainSections:
     - aktuellt

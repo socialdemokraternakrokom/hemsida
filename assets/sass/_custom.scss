@@ -71,24 +71,28 @@
 }
 
 .header {
-  --header-gap: var(--spacing-xs);
-  gap: var(--header-gap);
-  flex-flow: wrap;
-
-  @media (max-width: 555px) {
-    padding-block-start: calc(var(--gutters) + 1rem);
+  @media (max-width: 666px) {
+    --header-gap: var(--spacing-xs);
   }
 
   &__site-name {
-    font-size: var(--fs-xl);
-    order: 1;
-    flex-basis: 100%;
+    font-size: var(--fs-l);
+
+    @media (min-width: 666px) {
+      font-size: var(--fs-xl);
+    }
   }
 
   &__site-link {
     &:link,
     &:visited {
       color: var(--color-text-bg);
+    }
+  }
+
+  &__logo-image {
+    @media (max-width: 666px) {
+      width: 75px;
     }
   }
 }
