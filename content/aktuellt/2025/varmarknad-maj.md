@@ -1,10 +1,11 @@
 ---
-title: Repskap den 28 april 2025
-date: 2025-04-05T20:39:06+02:00
-draft: true
+title: Vårmarknad i Krokom lördagen den 31 maj kl 11-15
+date: 2025-05-30T07:21:34+02:00
 
 ---
 
-Vi börjar första maj firandet med frukost på Krokoms värdshus. Välkomna dit kl 08:30.
+Kom och träffa oss Socialdemokrater på Krokoms Vårmarknad. Krokoms AK kommer att stå på planen framför ICA och Biblioteket.
 
-Efter frukosten är det många som åker in till Östersund för att gå i demonstrationståget där.
+Vaplans S-Kvinnor kommer att stå på Stationsplan där det också är bakluckeloppis.
+
+Vårmarknaden arrangeras av Krokoms Byförening.
