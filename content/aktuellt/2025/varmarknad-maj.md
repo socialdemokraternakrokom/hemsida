@@ -9,3 +9,8 @@ Kom och träffa oss Socialdemokrater på Krokoms Vårmarknad. Krokoms AK kommer 
 Vaplans S-Kvinnor kommer att stå på Stationsplan där det också är bakluckeloppis.
 
 Vårmarknaden arrangeras av Krokoms Byförening.
+
+<!--more-->
+
+{{< img class="center" src="images/s-pa-varmarknad-krokom-2025.jpeg" >}}
+
