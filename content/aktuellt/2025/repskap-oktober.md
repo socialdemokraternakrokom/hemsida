@@ -1,6 +1,6 @@
 ---
 title: Repskap tisdag 14 oktober 2025
-date: 2025-10-01T14:28:45+02:00
+date: 2025-10-02T18:56:36+02:00
 
 ---
 
