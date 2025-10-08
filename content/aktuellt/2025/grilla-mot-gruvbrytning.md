@@ -17,3 +17,5 @@ Följ med du också!
 
 Välkommen!  
 Johan Nilsson Alsterbåge, Ordförande
+
+{{< img src="images/grilla-korv-mot-gruvbrytning.jpeg" width="700" >}}
