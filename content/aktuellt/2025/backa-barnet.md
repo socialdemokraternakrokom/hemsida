@@ -6,7 +6,7 @@ date: 2025-10-17T17:47:54+02:00
 
 {{< img class="right" src="images/backa-barnet-logo.png" width="300" >}}
 
-## Tillsammans skapar vi ett Krokom där barn får växa upp med trygghet, kärlek och stöd.
+### Tillsammans skapar vi ett Krokom där barn får växa upp med trygghet, kärlek och stöd.
 
 Socialdemokraterna har tagit initiativ till att [Krokoms kommun](https://krokom.se/omsorg-och-hjalp/projekt-omsorg-och-hjalp/projekt/2025-05-26-backa-barnet.html) börjat arbeta med [Backa barnet](https://www.backabarnet.se/).
 
