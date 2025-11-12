@@ -19,6 +19,11 @@ Det finns en bra mobilapp också som ni kan installera via länkarna nedan.
 
 Ange **`rosenforalla.se`** som "inloggningsadress" och sedan får du logga in med BankID precis som på webben.
 
+## Köp knappar, tröjor, jackor m m.
+
+{{< button src="https://socialdemokraternapub.shop.strd.se/" text="Socialdemokraternas kampanjbutik" >}}
+
+
 ## Reseräkning/utlägg
 
 Har du kört bil eller gjort utlägg så ladda ned denna blankett.
