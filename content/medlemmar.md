@@ -33,6 +33,6 @@ Har du kört bil eller gjort utlägg så ladda ned denna blankett.
 
 ## Betala med Swish
 
-Behöver du betala någon till till Krokoms Ak görs det enkelt via Swish.
+Behöver du betala något till Krokoms Ak görs det enkelt via Swish.
 
 {{< img src="images/swish-qr-small.png" width="300" >}}
