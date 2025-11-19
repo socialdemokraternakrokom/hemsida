@@ -1,6 +1,7 @@
 ---
 title: Bli medlem i Socialdemokraterna
 date: 2025-11-19T14:47:06+01:00
+draft: true
 
 ---
 
