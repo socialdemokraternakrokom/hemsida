@@ -1,0 +1,25 @@
+{{ define "head" -}}
+{{ with .Next -}}
+<meta http-equiv="refresh" content="25; url={{ .RelPermalink }}">
+{{ else with (index .CurrentSection.Pages.ByDate 0) -}}
+<meta http-equiv="refresh" content="25; url={{ .RelPermalink }}">
+{{ end -}}
+{{ end -}}
+
+{{ define "main" -}}
+<main class="main layout__main link-inverted">
+<article class="single-view{{ with .Section }} single-view--{{ . | urlize }}{{ end }}">
+<header>
+<h1 class="title{{ if $.Param "submitted" | default false }} mb--xxs{{ end }}">{{ .Title }}</h1>
+{{ if $.Param "submitted" | default false }}{{ partial "submitted.html" . }}{{ end -}}
+{{ if .Params.tags }}{{ partial "tags.html" . }}{{ end -}}
+</header>
+
+{{ .Content }}
+
+{{ if ne .Lastmod .Date }}{{ partial "dates.html" . }}{{ end -}}
+{{ if site.Params.repository | default false }}{{ partial "repository-links.html" . }}{{ end -}}
+{{ if $.Param "relatedposts" | default false }}{{ partial "relatedposts.html" . }}{{ end -}}
+</article>
+</main>
+{{ end -}}

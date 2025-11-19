@@ -143,3 +143,35 @@
 div:has(> iframe) {
   margin-block-end: 2rem;
 }
+
+/* Slides section */
+
+.section-page--slides {
+  .main-menu {
+    display: none;
+  }
+
+  .layout {
+    &__page {
+      max-width: none;
+      background-color: var(--color-border);
+    }
+  }
+}
+
+.single-view--slides {
+  h1 {
+    font-size: var(--fs-xxxxl);
+    color: var(--color-text-bg);
+  }
+
+  p {
+    font-size: var(--fs-l);
+    font-weight: var(--fw-medium);
+    color: var(--color-text-bg);
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
