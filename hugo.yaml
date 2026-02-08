@@ -26,7 +26,6 @@ outputs:
 
 params:
   contact: "info@socialdemokraternakrokom.se"
-  copyright: "© 2026 Socialdemokraterna i Krokom"
   footer: "Björkvägen 3 D, 835 31 Krokom <info@socialdemokraternakrokom.se>"
   description: "Socialdemokraterna i Krokoms kommun. Vårt Krokom kan bättre."
   dateformat: "2 January, 2006"
