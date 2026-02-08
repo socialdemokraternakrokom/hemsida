@@ -1,6 +1,7 @@
 ---
 title: Nu drar valrörelsen igång! Kom på första aktivitetsdagen söndag 8 februari kl 13:00
 date: 2026-01-25T11:26:20+01:00
+draft: true
 
 ---
 
