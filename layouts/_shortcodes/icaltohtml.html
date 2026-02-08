@@ -1,0 +1,56 @@
+{{ $calfile := (.Get 0) -}}
+{{ $datafile := index site.Data $calfile -}}
+{{ $calendar := index $datafile.VCALENDAR 0 -}}
+{{ $events := $calendar.VEVENT -}}
+{{ $events_sorted := dict -}}
+{{ $month_header := "" -}}
+
+{{ range $events -}}
+  {{ $summary := "" -}}
+  {{ $uid := "" -}}
+  {{ $month := "" -}}
+  {{ $date_str := "" -}}
+  {{ $date_sort := "" -}}
+  {{ $date := "" -}}
+  {{ $time := "" -}}
+  {{ $place := "" -}}
+  {{ $seperator := "" -}}
+
+  {{ range $key, $value := . -}}
+    {{ if in $key "SUMMARY" -}}
+      {{ $summary = $value -}}
+    {{ else if in $key "DTSTART" -}}
+      {{ $date_str = replaceRE "^([0-9]{4})([0-9]{2})([0-9]{2}).*" "$1-$2-$3" $value -}}
+      {{ if gt (len $value) 8 -}}
+        {{ $time = replaceRE "^([0-9]{8})T([0-9]{2})([0-9]{2})([0-9]{2}).*" "$2:$3:$4" $value -}}
+        {{ $seperator = "T" -}}
+        {{ $date_str = add $date_str $seperator $time  -}}
+        {{ $time = time.Format "15:04" $date_str -}}
+      {{ end -}}
+    {{ else if eq $key "LOCATION" -}}
+      {{ $place = (replace $value "\\n" " ") -}}
+      {{ $place = (replace $place "\\" "") -}}
+    {{ else if eq $key "UID" -}}
+      {{ $uid = $value -}}
+    {{ end -}}
+  {{ end -}}
+  {{ $date = time.Format "Monday den 2 January" $date_str -}}
+  {{ $date_sort = time.Format "2006-01-02" $date_str -}}
+  {{ $month = time.Format "January" $date_str -}}
+  {{ if gt (time $date_sort) now -}}
+    {{ $events_sorted = merge $events_sorted (dict $uid (dict "date_sort" $date_sort "date" $date "time" $time "place" $place "summary" $summary "month" $month)) -}}
+  {{ end -}}
+{{ end -}}
+
+
+{{ range sort $events_sorted "date_sort" "asc" -}}
+{{ if ne $month_header .month -}}
+{{ $month_header = .month -}}
+<h2>{{ strings.FirstUpper .month }} {{time.Format "2006" .date_sort }}</h2>
+{{ end -}}
+<article>
+<p><strong>{{ strings.FirstUpper .date }}</strong><br>
+{{ .summary }}{{ if .time }} – {{ end }}{{ .time }}<br>
+{{ .place }}</p>
+</article>
+{{ end -}}

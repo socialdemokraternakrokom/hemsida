@@ -1,2 +1,4 @@
 public/
 deploy.sh
+updatecal.sh
+data/scal.json
