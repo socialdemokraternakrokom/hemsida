@@ -1,0 +1,32 @@
+{
+  "file": "content/aktuellt/2026/arsmote-2026.md",
+  "name": "2026",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "date",
+      "label": "Date",
+      "type": "Date",
+      "value": "2026-02-15",
+      "defaultValue": "",
+      "alwaysUseCurrentDate": true
+    },
+    {
+      "name": "draft",
+      "label": "draft",
+      "type": "boolean",
+      "value": false,
+      "description": "",
+      "isRequired": false,
+      "defaultValue": "false"
+    }
+  ]
+}
