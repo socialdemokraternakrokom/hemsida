@@ -1,14 +1,14 @@
-// Site custom styles and colours. This file loads last.
+/* Site custom styles and colours. This file loads last. */
 
 :root {
-  // Site colours.
+  /* Site colours. */
   --color-sap-red:                #ed1b34;
   --color-sap-red-mid:            #ad143d;
   --color-sap-red-dark:           #660027;
   --color-sap-yellow:             #ffc166;
   --color-sap-green:              #009352;
 
-  // Brand colours.
+  /* Brand colours. */
   --color-brand:                  var(--color-sap-red);
   --color-brand-alt:              var(--color-sap-red-mid);
   --color-brand-light:            var(--color-sap-green);
@@ -21,6 +21,10 @@
 
   --color-header-bg:              var(--color-brand);
   --color-footer-bg:              var(--color-brand);
+
+  /* The max content width. */
+  --max-content-width: 777px;
+  --max-page-width: 1111px;
 }
 
 .page {
@@ -64,9 +68,6 @@
     h2 {
       color: var(--color-text-bg);
     }
-
-    p {
-    }
   }
 }
 
@@ -74,26 +75,26 @@
   @media (max-width: 666px) {
     --header-gap: var(--spacing-xs);
   }
+}
 
-  &__site-name {
-    font-size: var(--fs-l);
+.header__site-name {
+  font-size: var(--fs-l);
 
-    @media (min-width: 666px) {
-      font-size: var(--fs-xl);
-    }
+  @media (min-width: 666px) {
+    font-size: var(--fs-xl);
   }
+}
 
-  &__site-link {
-    &:link,
-    &:visited {
-      color: var(--color-text-bg);
-    }
+.header__site-link {
+  &:link,
+  &:visited {
+    color: var(--color-text-bg);
   }
+}
 
-  &__logo-image {
-    @media (max-width: 666px) {
-      width: 75px;
-    }
+.header__logo-image {
+  @media (max-width: 666px) {
+    width: 75px;
   }
 }
 
@@ -151,11 +152,9 @@ div:has(> iframe) {
     display: none;
   }
 
-  .layout {
-    &__page {
-      max-width: none;
-      background-color: var(--color-border);
-    }
+  .layout__page {
+    max-width: none;
+    background-color: var(--color-border);
   }
 }
 

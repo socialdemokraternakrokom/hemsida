@@ -1,14 +1,11 @@
 ---
 title: "Socialdemokraterna i Krokom"
 baseURL: "https://www.socialdemokraternakrokom.se/"
-theme: "github.com/frjo/hugo-theme-zen/v5"
+theme: "github.com/frjo/hugo-theme-zen/v6"
 languageCode: "sv-SE"
 defaultContentLanguage: "sv"
 pluralizelisttitles: false
 removePathAccents: true
-author:
-  name: "Krokoms Ak"
-  url: "https://www.socialdemokraternakrokom.se/"
 cascade:
   description: "Socialdemokraterna i Krokoms kommun. Vårt Krokom kan bättre."
 
@@ -25,6 +22,9 @@ outputs:
   section: ["HTML","RSS", "JSON"]
 
 params:
+  author:
+    name: "Krokoms Ak"
+    url: "https://www.socialdemokraternakrokom.se/"
   contact: "info@socialdemokraternakrokom.se"
   footer: "Björkvägen 3 D, 835 31 Krokom <info@socialdemokraternakrokom.se>"
   description: "Socialdemokraterna i Krokoms kommun. Vårt Krokom kan bättre."
