@@ -1,0 +1,37 @@
+{
+  "file": "content/aktuellt/_index.md",
+  "name": "aktuellt",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "title",
+      "label": "Titel",
+      "type": "string",
+      "value": "",
+      "isIgnored": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "date",
+      "label": "Datum",
+      "type": "Date",
+      "value": "2026-04-06",
+      "description": "",
+      "isIgnored": false,
+      "isRequired": false,
+      "defaultValue": "2026-04-06",
+      "alwaysUseCurrentDate": false
+    },
+    {
+      "name": "draft",
+      "label": "Utkast",
+      "type": "boolean",
+      "value": false,
+      "description": "",
+      "isIgnored": false,
+      "isRequired": false,
+      "defaultValue": "false"
+    }
+  ]
+}
