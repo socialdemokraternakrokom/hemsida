@@ -19,3 +19,6 @@ Kom och fira arbetarrörelsens dag med oss! Vi bjuder på frukost från kl. 8:30
 Göran Melin underhåller! 
 
 Efter firandet i Krokom fortsätter de som vill in till Östersund för att förlänga dagen med ännu mer gemenskap.
+<!--more-->
+
+{{< img class="center" src="images/annons-1-maj-2026.jpeg" >}}
