@@ -49,6 +49,11 @@
     margin: 0;
   }
 
+  .slogan {
+    background-color: var(--color-black-40);
+    padding-inline: .5rem;
+  }
+
   @media (min-width: 666px) {
     --color-overlay: var(--color-black-40);
     --color-overlay2: var(--color-black-10);

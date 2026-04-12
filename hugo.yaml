@@ -27,7 +27,7 @@ params:
     url: "https://www.socialdemokraternakrokom.se/"
   contact: "info@socialdemokraternakrokom.se"
   footer: "Björkvägen 3 D, 835 31 Krokom <info@socialdemokraternakrokom.se>"
-  description: "Socialdemokraterna i Krokoms kommun. Vårt Krokom kan bättre."
+  description: "Socialdemokraterna i Krokoms kommun. En stark välfärd för dig och din bygd."
   dateformat: "2 January, 2006"
   favicon: "apple-touch-icon.png"
   feedlinks: true
