@@ -12,9 +12,10 @@ Kom och fira arbetarrörelsens dag med oss! Vi bjuder på frukost från kl. 8:30
 **Talare**
 
 * Katarina Nyberg Finn, Regionen
-* Maria Jacobsson, Kommunalråd
 * Katarina Rosberg, LO
 * Max Wallin, SSU
+* Johan Nilsson Alsterbåge, AK-ordförande
+* Maria Jacobsson, Kommunalråd
 
 Göran Melin underhåller! 
 
