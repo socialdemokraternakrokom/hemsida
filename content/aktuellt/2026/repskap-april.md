@@ -1,5 +1,5 @@
 ---
-title: Repskap tisdag 27 januari 2026
+title: Repskap tisdag 28 april 2026
 date: 2026-04-20T10:16:23+02:00
 
 ---
