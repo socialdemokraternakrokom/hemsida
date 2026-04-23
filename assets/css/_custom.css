@@ -117,7 +117,7 @@
   }
 }
 
-article {
+article.box {
   header {
     background-color: var(--color-brand-5);
   }
@@ -199,4 +199,8 @@ div:has(> iframe) {
   a {
     text-decoration: none;
   }
+}
+
+.grid-group--30ch {
+  --grid-group-column-min: 30ch;
 }
