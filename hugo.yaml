@@ -2,7 +2,7 @@
 title: "Socialdemokraterna i Krokom"
 baseURL: "https://www.socialdemokraternakrokom.se/"
 theme: "github.com/frjo/hugo-theme-zen/v6"
-languageCode: "sv-SE"
+locale: "sv-SE"
 defaultContentLanguage: "sv"
 pluralizelisttitles: false
 removePathAccents: true
