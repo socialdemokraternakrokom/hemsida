@@ -6,18 +6,18 @@ title: För medlemmar
 
 ## Rosen för alla, partiets medlemsportal
 
-Här finns diskussionsforum, filarkiv, partinyheter och mycket annat. Alla partimedlemar har konton och loggar in med BankID.
+Här finns diskussionsforum, filarkiv, partinyheter och mycket annat. Alla partimedlemar har ett eget konton och loggar in med BankID.
 
 {{< button class="mb--s" src="https://rosenforalla.se/" text="Rosen för alla" >}}
 
 Det finns en bra mobilapp också som ni kan installera via länkarna nedan.
 
-{{< img class="left" src="images/sitevision_app_logo.png" width="64" >}}
+{{< img class="left" src="images/rosenforalla_app_logo.webp" width="64" >}}
 
-[Sitevision för iOS](https://apps.apple.com/se/app/sitevision-intran%C3%A4t/id1599210899) (iPhone/iPad)  
-[Sitevision för Android](https://play.google.com/store/apps/details?id=se.sitevision.sitevisionapp)
+[Rosen Intranät för iPhone](https://apps.apple.com/se/app/rosen-intranet/id6755723938)  
+[Rosen Intranät för Android](https://play.google.com/store/apps/details?id=se.rosen.intranet.sitevisionapp)
 
-Ange **`rosenforalla.se`** som "inloggningsadress" och sedan får du logga in med BankID precis som på webben.
+Du loggar in med BankID precis som på webben.
 
 ## Köp knappar, tröjor, jackor m m.
 
