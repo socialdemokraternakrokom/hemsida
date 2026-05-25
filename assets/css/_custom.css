@@ -209,3 +209,22 @@ div:has(> iframe) {
 .grid-group--30ch {
   --grid-group-column-min: 30ch;
 }
+
+.valprogram {
+  h1,
+  h2,
+  h3 {
+    color: var(--color-brand-dark);
+  }
+}
+
+.valsedel {
+  box-shadow: 0px 4px 10px var(--color-black-20);
+  border-width: 2px;
+  border-color: var(--color-brand-alt);
+  padding: var(--spacing-m);
+
+  h2 {
+    margin-block-start: 0;
+  }
+}

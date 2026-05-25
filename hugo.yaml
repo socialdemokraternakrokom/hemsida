@@ -57,9 +57,12 @@ menu:
 #     - Name: "Kommunen"
 #       weight: 50
 #       pageRef: "kommunen/"
-    - Name: "Kyrkan"
-      weight: 70
-      pageRef: "kyrkan/"
+    - Name: "Valet 2026"
+      weight: 60
+      pageRef: "valet/"
+#     - Name: "Kyrkan"
+#       weight: 70
+#       pageRef: "kyrkan/"
     - Name: "Medlemmar"
       weight: 90
       pageRef: "medlemmar/"
