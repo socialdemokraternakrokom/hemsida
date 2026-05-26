@@ -26,6 +26,7 @@
 
   --color-header-bg:              var(--color-brand);
   --color-footer-bg:              var(--color-brand);
+  --color-headings:               var(--color-brand-dark);
 
 
   /* The max content width. */
@@ -134,6 +135,12 @@ article.box {
   }
 }
 
+.card {
+  box-shadow: 0px 4px 10px var(--color-black-20);
+  border-width: 2px;
+  border-color: var(--color-brand-alt);
+}
+
 .box {
   box-shadow: 0px 4px 10px var(--color-black-20);
   border-width: 2px;
@@ -211,11 +218,6 @@ div:has(> iframe) {
 }
 
 .valprogram {
-  h1,
-  h2,
-  h3 {
-    color: var(--color-brand-dark);
-  }
 }
 
 .valsedel {

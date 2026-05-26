@@ -152,26 +152,3 @@ Om du vill veta mer om valet kan du besöka [www.val.se](https://www.val.se/).
 32. Helle Björnsdotter, 21, Nälden
 33. Maidie Viklund, 76, Krokom
 {{< wrapper-end >}}
-
-{{< wrapper-start "cards" >}}
-{{< wrapper-start card >}}
-{{< img src="images/s-kvinnor-logo.jpg" width="160" alt="S-Kvinnor" >}}
-S-kvinnor är socialdemokratiska feminister som ställer klasskamp, kvinnokamp och antirasistisk kamp sida vid sida.
-
-[Bli medlem](https://s-kvinnor.se/s-kvinnor/bli-medlem "Bli medlem i S-Kvinnor")
-{{< wrapper-end >}}
-{{< wrapper-start card >}}
-{{< img src="images/ssu-logo.png" width="110" alt="SSU" >}}
-SSU är Socialdemokraternas och LO:s ungdomsförbund. Vi prioriterar skolan, vården, och klimatomställningen istället för sänkta skatter och bolagsvinster för den rika eliten. Vi ska vinna kampen om vår framtid.
-
-[Bli medlem](https://ssu.se/bli-medlem/ "Bli medlem i SSU")
-{{< wrapper-end >}}
-{{< wrapper-start card >}}
-{{< svg src="images/logo.svg" width="100" alt="Socialdemokraterna" >}}
-
-Socialdemokraterna i Krokom. Var med och utveckla kommunen – tillsammans. Engagera dig på ett sätt som passar dig.
-
-[Bli medlem](https://www.socialdemokraterna.se/bli-medlem "Bli medlem i Socialdemokraterna")
-{{< wrapper-end >}}
-{{< wrapper-end >}}
-
