@@ -28,7 +28,7 @@ Du loggar in med BankID precis som på webben.
 
 Har du kört bil eller gjort utlägg så ladda ned denna blankett.
 
-{{< file class="button" src="files/reserakning-krokomsak-2022.pdf" text="Reseräkning-/utlägg-blanketten" >}}
+{{< file class="button" src="files/reserakning-krokomsak-2026.pdf" text="Reseräkning-/utlägg-blanketten" >}}
 
 
 ## Betala med Swish
